@@ -14,8 +14,23 @@ public class CalculatriceJenkins {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("ok");
-        // TODO code application logic here
+        
+    }
+
+    public static int ajouterDeuxNombre(int nombre1, int nombre2) {
+        return nombre1 + nombre2;
+    }
+
+    public static int soustraireDeuxNombre(int nombre1, int nombre2) {
+        return nombre1 - nombre2;
+    }
+
+    public static int multiplierDeuxNombre(int nombre1, int nombre2) {
+        return nombre1 * nombre2;
+    }
+
+    public static int divisionDeuxNombre(int nombre1, int nombre2) {
+        return nombre1 / nombre2;
     }
     
 }
